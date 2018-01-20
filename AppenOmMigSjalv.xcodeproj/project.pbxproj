@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7223CE0C20138934008BC706 /* SavedSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223CE0B20138934008BC706 /* SavedSettings.m */; };
+		7223CE1220138F86008BC706 /* ViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223CE1120138F86008BC706 /* ViewControllerHome.m */; };
+		7223CE15201393D9008BC706 /* ViewControllerAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223CE14201393D9008BC706 /* ViewControllerAbout.m */; };
+		7223CE18201394E2008BC706 /* ViewControllerGuessGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223CE17201394E2008BC706 /* ViewControllerGuessGame.m */; };
 		726C9D9D200CC62C006D0A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 726C9D9C200CC62C006D0A99 /* AppDelegate.m */; };
 		726C9DA0200CC62C006D0A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726C9D9F200CC62C006D0A99 /* ViewController.m */; };
 		726C9DA3200CC62C006D0A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726C9DA1200CC62C006D0A99 /* Main.storyboard */; };
 		726C9DA5200CC62C006D0A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726C9DA4200CC62C006D0A99 /* Assets.xcassets */; };
 		726C9DA8200CC62C006D0A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726C9DA6200CC62C006D0A99 /* LaunchScreen.storyboard */; };
 		726C9DAB200CC62C006D0A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726C9DAA200CC62C006D0A99 /* main.m */; };
+		72BE657A200CE25A000C3571 /* ViewControllerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BE6579200CE25A000C3571 /* ViewControllerSettings.m */; };
+		72BE657D200CE39B000C3571 /* ViewControllerGameMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BE657C200CE39B000C3571 /* ViewControllerGameMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7223CE0A20138934008BC706 /* SavedSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SavedSettings.h; sourceTree = "<group>"; };
+		7223CE0B20138934008BC706 /* SavedSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SavedSettings.m; sourceTree = "<group>"; };
+		7223CE1020138F86008BC706 /* ViewControllerHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerHome.h; sourceTree = "<group>"; };
+		7223CE1120138F86008BC706 /* ViewControllerHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHome.m; sourceTree = "<group>"; };
+		7223CE13201393D9008BC706 /* ViewControllerAbout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerAbout.h; sourceTree = "<group>"; };
+		7223CE14201393D9008BC706 /* ViewControllerAbout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAbout.m; sourceTree = "<group>"; };
+		7223CE16201394E2008BC706 /* ViewControllerGuessGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerGuessGame.h; sourceTree = "<group>"; };
+		7223CE17201394E2008BC706 /* ViewControllerGuessGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerGuessGame.m; sourceTree = "<group>"; };
 		726C9D98200CC62C006D0A99 /* AppenOmMigSjalv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppenOmMigSjalv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726C9D9B200CC62C006D0A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		726C9D9C200CC62C006D0A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,10 @@
 		726C9DA7200CC62C006D0A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		726C9DA9200CC62C006D0A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		726C9DAA200CC62C006D0A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72BE6578200CE25A000C3571 /* ViewControllerSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerSettings.h; sourceTree = "<group>"; };
+		72BE6579200CE25A000C3571 /* ViewControllerSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSettings.m; sourceTree = "<group>"; };
+		72BE657B200CE39B000C3571 /* ViewControllerGameMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerGameMenu.h; sourceTree = "<group>"; };
+		72BE657C200CE39B000C3571 /* ViewControllerGameMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerGameMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +80,19 @@
 				726C9D9C200CC62C006D0A99 /* AppDelegate.m */,
 				726C9D9E200CC62C006D0A99 /* ViewController.h */,
 				726C9D9F200CC62C006D0A99 /* ViewController.m */,
+				7223CE1020138F86008BC706 /* ViewControllerHome.h */,
+				7223CE1120138F86008BC706 /* ViewControllerHome.m */,
+				72BE6578200CE25A000C3571 /* ViewControllerSettings.h */,
+				72BE6579200CE25A000C3571 /* ViewControllerSettings.m */,
+				72BE657B200CE39B000C3571 /* ViewControllerGameMenu.h */,
+				72BE657C200CE39B000C3571 /* ViewControllerGameMenu.m */,
+				7223CE16201394E2008BC706 /* ViewControllerGuessGame.h */,
+				7223CE17201394E2008BC706 /* ViewControllerGuessGame.m */,
 				726C9DA1200CC62C006D0A99 /* Main.storyboard */,
+				7223CE13201393D9008BC706 /* ViewControllerAbout.h */,
+				7223CE14201393D9008BC706 /* ViewControllerAbout.m */,
+				7223CE0A20138934008BC706 /* SavedSettings.h */,
+				7223CE0B20138934008BC706 /* SavedSettings.m */,
 				726C9DA4200CC62C006D0A99 /* Assets.xcassets */,
 				726C9DA6200CC62C006D0A99 /* LaunchScreen.storyboard */,
 				726C9DA9200CC62C006D0A99 /* Info.plist */,
@@ -142,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7223CE0C20138934008BC706 /* SavedSettings.m in Sources */,
 				726C9DA0200CC62C006D0A99 /* ViewController.m in Sources */,
+				7223CE15201393D9008BC706 /* ViewControllerAbout.m in Sources */,
+				7223CE1220138F86008BC706 /* ViewControllerHome.m in Sources */,
 				726C9DAB200CC62C006D0A99 /* main.m in Sources */,
+				7223CE18201394E2008BC706 /* ViewControllerGuessGame.m in Sources */,
 				726C9D9D200CC62C006D0A99 /* AppDelegate.m in Sources */,
+				72BE657A200CE25A000C3571 /* ViewControllerSettings.m in Sources */,
+				72BE657D200CE39B000C3571 /* ViewControllerGameMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
